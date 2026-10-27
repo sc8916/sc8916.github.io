@@ -167,6 +167,13 @@ main h2 {
 .pub-body p { margin: 0 0 0.75rem; }
 .coauthors { color: var(--muted); }
 
+/* Compact variant for a single dropdown inside a list */
+.pubs.compact { margin: 0 0 0.7rem; border-top: 0; }
+.pubs.compact details { border-bottom: 0; }
+.pubs.compact summary { padding: 0 2.25rem 0 1.25rem; text-indent: -1.25rem; }
+.pubs.compact summary::after { top: -0.15rem; }
+.pubs.compact .pub-body { padding: 0.9rem 0 0.6rem 1.25rem; }
+
 /* ---------- Teaching list ---------- */
 .institution {
   margin: 2rem 0 0.75rem;
